@@ -1,0 +1,1920 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='gridline'>
+      <format attr='stroke-color' value='#b4b4b4' />
+      <format attr='line-pattern-only' value='dashed' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='model_result (model_result)' inline='true' name='federated.08dx3b31dhcvpv19yi87c1arftkz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='model_result' name='excel-direct.1i29duy19ki3df18dlmcn1f4ergz'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/gormt/P08/bundes/model_result_Bun.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1i29duy19ki3df18dlmcn1f4ergz' name='model_result_Bun' table='[model_result_Bun$]' type='table'>
+          <columns gridOrigin='A1:E19:no:A1:E19:0' header='yes' outcome='6'>
+            <column datatype='string' name='Team' ordinal='0' />
+            <column datatype='integer' name='Value' ordinal='1' />
+            <column datatype='real' name='trend' ordinal='2' />
+            <column datatype='real' name='pourcentage' ordinal='3' />
+            <column datatype='string' name='predict' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1i29duy19ki3df18dlmcn1f4ergz' name='model_result_Bun' table='[model_result_Bun$]' type='table'>
+          <columns gridOrigin='A1:E19:no:A1:E19:0' header='yes' outcome='6'>
+            <column datatype='string' name='Team' ordinal='0' />
+            <column datatype='integer' name='Value' ordinal='1' />
+            <column datatype='real' name='trend' ordinal='2' />
+            <column datatype='real' name='pourcentage' ordinal='3' />
+            <column datatype='string' name='predict' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[model_result_Bun]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E19:no:A1:E19:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[model_result_Bun]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[model!result!Bun_E9683CBEDB32437D90F451C0A4656F02]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[model_result_Bun]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[model!result!Bun_E9683CBEDB32437D90F451C0A4656F02]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trend</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[trend]</local-name>
+            <parent-name>[model_result_Bun]</parent-name>
+            <remote-alias>trend</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[model!result!Bun_E9683CBEDB32437D90F451C0A4656F02]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pourcentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pourcentage]</local-name>
+            <parent-name>[model_result_Bun]</parent-name>
+            <remote-alias>pourcentage</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[model!result!Bun_E9683CBEDB32437D90F451C0A4656F02]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predict</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[predict]</local-name>
+            <parent-name>[model_result_Bun]</parent-name>
+            <remote-alias>predict</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[model!result!Bun_E9683CBEDB32437D90F451C0A4656F02]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Team1' datatype='string' name='[Team]' role='dimension' type='nominal' />
+      <column caption='Value1' datatype='integer' name='[Value]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='model_result_Bun' datatype='table' name='[__tableau_internal_object_id__].[model!result!Bun_E9683CBEDB32437D90F451C0A4656F02]' role='measure' type='quantitative' />
+      <column caption='Pourcentage' datatype='real' name='[pourcentage]' role='dimension' type='quantitative' />
+      <column caption='Predict' datatype='string' name='[predict]' role='dimension' type='nominal' />
+      <column caption='Trend' datatype='real' name='[trend]' role='measure' type='quantitative' />
+      <column-instance column='[pourcentage]' derivation='None' name='[none:pourcentage:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <default-sorts>
+        <manual-sort column='[none:pourcentage:ok]' direction='ASC'>
+          <dictionary>
+            <bucket>0.999</bucket>
+            <bucket>0.81699999999999995</bucket>
+            <bucket>0.65100000000000002</bucket>
+            <bucket>0.38800000000000001</bucket>
+            <bucket>0.22500000000000001</bucket>
+            <bucket>0.20999999999999999</bucket>
+            <bucket>0.153</bucket>
+            <bucket>0.13500000000000001</bucket>
+            <bucket>0.109</bucket>
+            <bucket>0.10000000000000001</bucket>
+            <bucket>0.075999999999999998</bucket>
+            <bucket>0.058000000000000003</bucket>
+            <bucket>0.052999999999999999</bucket>
+            <bucket>0.049000000000000002</bucket>
+            <bucket>0.043999999999999997</bucket>
+            <bucket>0.032000000000000001</bucket>
+            <bucket>0.029000000000000001</bucket>
+            <bucket>0.027</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='model_result_Bun' id='model!result!Bun_E9683CBEDB32437D90F451C0A4656F02'>
+            <properties context=''>
+              <relation connection='excel-direct.1i29duy19ki3df18dlmcn1f4ergz' name='model_result_Bun' table='[model_result_Bun$]' type='table'>
+                <columns gridOrigin='A1:E19:no:A1:E19:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Team' ordinal='0' />
+                  <column datatype='integer' name='Value' ordinal='1' />
+                  <column datatype='real' name='trend' ordinal='2' />
+                  <column datatype='real' name='pourcentage' ordinal='3' />
+                  <column datatype='string' name='predict' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='pond_value (pond_value)' inline='true' name='federated.0re6jmx12fdddn1205wbq018m4ao' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='pond_value' name='excel-direct.01a1c2t0frc8e115b4ju9051rmmo'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/gormt/P08/bundes/pond_value_Bun.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.01a1c2t0frc8e115b4ju9051rmmo' name='pond_value_Bun' table='[pond_value_Bun$]' type='table'>
+          <columns gridOrigin='A1:L127:no:A1:L127:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Rank' ordinal='0' />
+            <column datatype='string' name='Team' ordinal='1' />
+            <column datatype='integer' name='Years' ordinal='2' />
+            <column datatype='integer' name='PTS' ordinal='3' />
+            <column datatype='real' name='win_rate' ordinal='4' />
+            <column datatype='integer' name='G' ordinal='5' />
+            <column datatype='integer' name='GA' ordinal='6' />
+            <column datatype='real' name='xG' ordinal='7' />
+            <column datatype='real' name='xGA' ordinal='8' />
+            <column datatype='integer' name='Value totale' ordinal='9' />
+            <column datatype='real' name='Value attaque' ordinal='10' />
+            <column datatype='real' name='Value defense' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.01a1c2t0frc8e115b4ju9051rmmo' name='pond_value_Bun' table='[pond_value_Bun$]' type='table'>
+          <columns gridOrigin='A1:L127:no:A1:L127:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Rank' ordinal='0' />
+            <column datatype='string' name='Team' ordinal='1' />
+            <column datatype='integer' name='Years' ordinal='2' />
+            <column datatype='integer' name='PTS' ordinal='3' />
+            <column datatype='real' name='win_rate' ordinal='4' />
+            <column datatype='integer' name='G' ordinal='5' />
+            <column datatype='integer' name='GA' ordinal='6' />
+            <column datatype='real' name='xG' ordinal='7' />
+            <column datatype='real' name='xGA' ordinal='8' />
+            <column datatype='integer' name='Value totale' ordinal='9' />
+            <column datatype='real' name='Value attaque' ordinal='10' />
+            <column datatype='real' name='Value defense' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L127:no:A1:L127:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Years]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>Years</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PTS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PTS]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>PTS</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>win_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[win_rate]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>win_rate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>G</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GA]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>GA</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[xG]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>xG</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xGA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[xGA]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>xGA</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value totale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value totale]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>Value totale</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value attaque</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value attaque]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>Value attaque</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value defense</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value defense]</local-name>
+            <parent-name>[pond_value_Bun]</parent-name>
+            <remote-alias>Value defense</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:G:qk]&quot;' value='Goals Average' />
+          <alias key='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:GA:qk]&quot;' value='Goals against Average' />
+          <alias key='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:PTS:qk]&quot;' value='Points en moyenne' />
+          <alias key='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Rank:qk]&quot;' value='Classement' />
+          <alias key='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:win_rate:qk]&quot;' value='Win Rate Average' />
+          <alias key='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:G:qk]&quot;' value='Buts marqués' />
+          <alias key='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:GA:qk]&quot;' value='Buts encaissés' />
+          <alias key='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:PTS:qk]&quot;' value='Points' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[GA]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[G]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[PTS]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Rank (groupe)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Rank]' new-bin='true'>
+          <bin default-name='false' value='&quot;Champions League squad&quot;'>
+            <value>1</value>
+            <value>2</value>
+            <value>3</value>
+            <value>4</value>
+          </bin>
+          <bin default-name='false' value='&quot;Europa League squad&quot;'>
+            <value>5</value>
+            <value>6</value>
+          </bin>
+        </calculation>
+      </column>
+      <column aggregation='Avg' caption='Rank1' datatype='integer' name='[Rank]' role='measure' type='quantitative' visual-totals='Avg' />
+      <column caption='Team1' datatype='string' name='[Team]' role='dimension' type='nominal' />
+      <column caption='Years1' datatype='integer' name='[Years]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='pond_value_Bun' datatype='table' name='[__tableau_internal_object_id__].[pond!value!Bun_551D95F18BE349B694711B7AEACD58E2]' role='measure' type='quantitative' />
+      <column caption='Win Rate' datatype='real' name='[win_rate]' role='measure' type='quantitative' />
+      <column caption='X Ga' datatype='real' name='[xGA]' role='measure' type='quantitative' />
+      <column caption='X G' datatype='real' name='[xG]' role='measure' type='quantitative' />
+      <column-instance column='[G]' derivation='Avg' name='[avg:G:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GA]' derivation='Avg' name='[avg:GA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PTS]' derivation='Avg' name='[avg:PTS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Rank]' derivation='Avg' name='[avg:Rank:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[win_rate]' derivation='Avg' name='[avg:win_rate:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[G]' derivation='Sum' name='[sum:G:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GA]' derivation='Sum' name='[sum:GA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PTS]' derivation='Sum' name='[sum:PTS:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Team)' hidden='true' name='[Action (Team)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Team]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Team1)' hidden='true' name='[Action (Team1)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Team]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:GA:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:G:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Rank (groupe)]' type='palette'>
+            <map to='#000000'>
+              <bucket>&quot;Europa League squad&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;11&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;7&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;15&quot;</bucket>
+            </map>
+            <map to='#7ab929'>
+              <bucket>&quot;Champions League squad&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;12&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;8&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;4&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;19&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;9&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;16&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;17&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;20&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;13&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;10&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;5&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;18&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;14&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;6&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Réel&quot;</bucket>
+            <bucket>&quot;Estimation&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='pond_value_Bun' id='pond!value!Bun_551D95F18BE349B694711B7AEACD58E2'>
+            <properties context=''>
+              <relation connection='excel-direct.01a1c2t0frc8e115b4ju9051rmmo' name='pond_value_Bun' table='[pond_value_Bun$]' type='table'>
+                <columns gridOrigin='A1:L127:no:A1:L127:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Rank' ordinal='0' />
+                  <column datatype='string' name='Team' ordinal='1' />
+                  <column datatype='integer' name='Years' ordinal='2' />
+                  <column datatype='integer' name='PTS' ordinal='3' />
+                  <column datatype='real' name='win_rate' ordinal='4' />
+                  <column datatype='integer' name='G' ordinal='5' />
+                  <column datatype='integer' name='GA' ordinal='6' />
+                  <column datatype='real' name='xG' ordinal='7' />
+                  <column datatype='real' name='xGA' ordinal='8' />
+                  <column datatype='integer' name='Value totale' ordinal='9' />
+                  <column datatype='real' name='Value attaque' ordinal='10' />
+                  <column datatype='real' name='Value defense' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filtre 1 (généré)' name='[Action1_B68F2E9BBB8543C9B0160A2D44B9E39D]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Tableau de bord 1' type='sheet' worksheet='model' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Tableau de bord 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Feuille 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontsize='14'>Points number distribution by europeans qualifiers squads</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pond_value (pond_value)' name='federated.0re6jmx12fdddn1205wbq018m4ao' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0re6jmx12fdddn1205wbq018m4ao'>
+            <column datatype='integer' name='[PTS]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Rank (groupe)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Rank]' new-bin='true'>
+                <bin default-name='false' value='&quot;Champions League squad&quot;'>
+                  <value>1</value>
+                  <value>2</value>
+                  <value>3</value>
+                  <value>4</value>
+                </bin>
+                <bin default-name='false' value='&quot;Europa League squad&quot;'>
+                  <value>5</value>
+                  <value>6</value>
+                </bin>
+              </calculation>
+            </column>
+            <column aggregation='Avg' caption='Rank1' datatype='integer' name='[Rank]' role='measure' type='quantitative' visual-totals='Avg' />
+            <column datatype='integer' name='[Value totale]' role='measure' type='quantitative' />
+            <column caption='Years1' datatype='integer' name='[Years]' role='measure' type='quantitative' />
+            <column-instance column='[PTS]' derivation='Avg' name='[avg:PTS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value totale]' derivation='Avg' name='[avg:Value totale:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Years]' derivation='None' name='[none:Years:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[Rank (groupe)]' member='&quot;1,2,3&quot;' />
+              <groupfilter function='member' level='[Rank (groupe)]' member='&quot;4,5,6&quot;' />
+              <groupfilter function='member' level='[Rank (groupe)]' member='&quot;Champions League squad&quot;' />
+              <groupfilter function='member' level='[Rank (groupe)]' member='&quot;Equipes en ligue des champions&quot;' />
+              <groupfilter function='member' level='[Rank (groupe)]' member='&quot;Equipes en ligue europa&quot;' />
+              <groupfilter function='member' level='[Rank (groupe)]' member='&quot;Europa League squad&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Equipes en ligue des champions&quot;</bucket>
+              <bucket>&quot;Equipes en ligue europa&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:PTS:qk]' field-type='quantitative' major-origin='0.0' major-spacing='5.0' min='45.0' minor-origin='0.0' minor-spacing='2.0' range-type='fixedmin' scope='rows' type='space' />
+            <format attr='stroke-color' value='#b4b4b4' />
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='tick-color' value='#b4b4b4' />
+            <format attr='tick-color' scope='rows' value='#b4b4b4' />
+            <format attr='title' class='0' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Years:qk]' scope='cols' value='Years' />
+            <format attr='title' class='0' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:PTS:qk]' scope='rows' value='PTS Average' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='border-width' value='1' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#000000' />
+            <format attr='border-color' scope='rows' value='#d37295' />
+            <format attr='text-format' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:PTS:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-color' value='#b4b4b4' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' value='#b4b4b44b' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-visibility' scope='rows' value='on' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-color' value='#b4b4b4' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-color' scope='rows' value='#b4b4b4' />
+            <format attr='div-level' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]' value='360' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]' />
+              <size column='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Value totale:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3293370008468628' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-color' value='#b4b4b467' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:PTS:qk]</rows>
+        <cols>[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Years:qk]</cols>
+      </table>
+      <simple-id uuid='{23F3465E-BD9C-4BA0-BC4A-5128A7304E7C}' />
+    </worksheet>
+    <worksheet name='Feuille 6 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Statisticals from clubs qualified for european competition</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pond_value (pond_value)' name='federated.0re6jmx12fdddn1205wbq018m4ao' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0re6jmx12fdddn1205wbq018m4ao'>
+            <column datatype='integer' name='[GA]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[G]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Rank (groupe)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Rank]' new-bin='true'>
+                <bin default-name='false' value='&quot;Champions League squad&quot;'>
+                  <value>1</value>
+                  <value>2</value>
+                  <value>3</value>
+                  <value>4</value>
+                </bin>
+                <bin default-name='false' value='&quot;Europa League squad&quot;'>
+                  <value>5</value>
+                  <value>6</value>
+                </bin>
+              </calculation>
+            </column>
+            <column aggregation='Avg' caption='Rank1' datatype='integer' name='[Rank]' role='measure' type='quantitative' visual-totals='Avg' />
+            <column caption='Years1' datatype='integer' name='[Years]' role='measure' type='quantitative' />
+            <column-instance column='[G]' derivation='Avg' name='[avg:G:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GA]' derivation='Avg' name='[avg:GA:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[win_rate]' derivation='Avg' name='[avg:win_rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Years]' derivation='None' name='[none:Years:ok]' pivot='key' type='ordinal' />
+            <column caption='Win Rate' datatype='real' name='[win_rate]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:GA:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:G:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:win_rate:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:GA:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:G:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[Rank (groupe)]' member='&quot;Champions League squad&quot;' />
+              <groupfilter function='member' level='[Rank (groupe)]' member='&quot;Equipes en ligue des champions&quot;' />
+              <groupfilter function='member' level='[Rank (groupe)]' member='&quot;Equipes en ligue europa&quot;' />
+              <groupfilter function='member' level='[Rank (groupe)]' member='&quot;Europa League squad&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names]</column>
+            <column>[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names]' value='316' />
+            <format attr='height' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Years:ok]' value='44' />
+            <format attr='cell-w' value='162' />
+            <format attr='cell-h' value='54' />
+            <format attr='cell' value='54' />
+            <format attr='cell-q' value='270' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+            <format attr='text-format' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:win_rate:qk]' value='p0.0%' />
+            <format attr='text-format' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:GA:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='text-format' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:G:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Years:ok]' value='184' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names]' value='true' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[Multiple Values]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#0053a7</color>
+                <color>#1d65af</color>
+                <color>#3d7ab7</color>
+                <color>#608fc0</color>
+                <color>#85a6c8</color>
+                <color>#adbfd0</color>
+                <color>#d9d9d9</color>
+                <color>#dcc8b8</color>
+                <color>#e0b696</color>
+                <color>#e4a473</color>
+                <color>#e8914e</color>
+                <color>#ec7e29</color>
+                <color>#f06a02</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:GA:qk]' num-steps='5' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#7ab929</color>
+                <color>#88be42</color>
+                <color>#97c35e</color>
+                <color>#a6c97a</color>
+                <color>#b6ce98</color>
+                <color>#c7d3b8</color>
+                <color>#d9d9d9</color>
+                <color>#b4b4b4</color>
+                <color>#909090</color>
+                <color>#6c6c6c</color>
+                <color>#484848</color>
+                <color>#242424</color>
+                <color>#000000</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:G:qk]' num-steps='5' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#000000</color>
+                <color>#242424</color>
+                <color>#484848</color>
+                <color>#6c6c6c</color>
+                <color>#909090</color>
+                <color>#b4b4b4</color>
+                <color>#d9d9d9</color>
+                <color>#c7d3b8</color>
+                <color>#b6ce98</color>
+                <color>#a6c97a</color>
+                <color>#97c35e</color>
+                <color>#88be42</color>
+                <color>#7ab929</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:win_rate:qk]' num-steps='5' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#000000</color>
+                <color>#242424</color>
+                <color>#484848</color>
+                <color>#6c6c6c</color>
+                <color>#909090</color>
+                <color>#b4b4b4</color>
+                <color>#d9d9d9</color>
+                <color>#c7d3b8</color>
+                <color>#b6ce98</color>
+                <color>#a6c97a</color>
+                <color>#97c35e</color>
+                <color>#88be42</color>
+                <color>#7ab929</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0re6jmx12fdddn1205wbq018m4ao].[Multiple Values]' separate-domains='true' />
+              <text column='[federated.0re6jmx12fdddn1205wbq018m4ao].[Multiple Values]' separate-domains='true' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Years:ok]</rows>
+        <cols>([federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names] / [federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)])</cols>
+      </table>
+      <simple-id uuid='{B92B8758-64F2-46E8-9E25-7B7D45FB67BC}' />
+    </worksheet>
+    <worksheet name='Points Mhsc'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontsize='14'>Borussia M.Gladbach number points in Bundesliga</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pond_value (pond_value)' name='federated.0re6jmx12fdddn1205wbq018m4ao' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0re6jmx12fdddn1205wbq018m4ao'>
+            <column datatype='integer' name='[PTS]' role='measure' type='quantitative' />
+            <column aggregation='Avg' caption='Rank1' datatype='integer' name='[Rank]' role='measure' type='quantitative' visual-totals='Avg' />
+            <column caption='Team1' datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column caption='Years1' datatype='integer' name='[Years]' role='measure' type='quantitative' />
+            <column-instance column='[Rank]' derivation='Attribute' name='[attr:Rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Years]' derivation='None' name='[none:Years:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[PTS]' derivation='Sum' name='[sum:PTS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Team:nk]'>
+            <groupfilter function='member' level='[none:Team:nk]' member='&quot;Borussia M.Gladbach&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Team:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='9' />
+            <format attr='height' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Years:ok]' value='76' />
+            <format attr='text-format' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[attr:Rank:qk]' value='N' />
+            <format attr='width' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Team:nk]' value='117' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Team:nk]' value='64' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-style' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[attr:Rank:qk]' value='italic' />
+            <format attr='text-decoration' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[attr:Rank:qk]' value='underline' />
+            <format attr='font-weight' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[attr:Rank:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:PTS:qk]' num-steps='5' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#7ab929</color>
+                <color>#88be42</color>
+                <color>#97c35e</color>
+                <color>#a6c97a</color>
+                <color>#b6ce98</color>
+                <color>#c7d3b8</color>
+                <color>#d9d9d9</color>
+                <color>#b4b4b4</color>
+                <color>#909090</color>
+                <color>#6c6c6c</color>
+                <color>#484848</color>
+                <color>#242424</color>
+                <color>#000000</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[attr:Rank:qk]' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#0053a7</color>
+                <color>#1d65af</color>
+                <color>#3d7ab7</color>
+                <color>#608fc0</color>
+                <color>#85a6c8</color>
+                <color>#adbfd0</color>
+                <color>#d9d9d9</color>
+                <color>#dcc8b8</color>
+                <color>#e0b696</color>
+                <color>#e4a473</color>
+                <color>#e8914e</color>
+                <color>#ec7e29</color>
+                <color>#f06a02</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='normal' />
+            <format attr='font-size' value='9' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-weight' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[attr:Rank:qk]' value='normal' />
+          </style-rule>
+          <style-rule element='parameter-ctrl'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='parameter-ctrl-title'>
+            <format attr='text-align' value='auto' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:PTS:qk]' />
+              <lod column='[federated.0re6jmx12fdddn1205wbq018m4ao].[attr:Rank:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Years:ok]</rows>
+        <cols>[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Team:nk]</cols>
+      </table>
+      <simple-id uuid='{C709DCF8-DEB6-41F9-B133-3E15DDBE70C5}' />
+    </worksheet>
+    <worksheet name='Points Mhsc (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontsize='14'>Borussia M.Gladbach statistical</run>
+            <run fontalignment='1'> in Bundesliga</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pond_value (pond_value)' name='federated.0re6jmx12fdddn1205wbq018m4ao' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0re6jmx12fdddn1205wbq018m4ao'>
+            <column datatype='integer' name='[GA]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[G]' role='measure' type='quantitative' />
+            <column aggregation='Avg' caption='Rank1' datatype='integer' name='[Rank]' role='measure' type='quantitative' visual-totals='Avg' />
+            <column caption='Team1' datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column caption='Years1' datatype='integer' name='[Years]' role='measure' type='quantitative' />
+            <column-instance column='[Rank]' derivation='Avg' name='[avg:Rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[win_rate]' derivation='Avg' name='[avg:win_rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Years]' derivation='None' name='[none:Years:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[G]' derivation='Sum' name='[sum:G:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GA]' derivation='Sum' name='[sum:GA:qk]' pivot='key' type='quantitative' />
+            <column caption='Win Rate' datatype='real' name='[win_rate]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:GA:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:G:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Rank:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:win_rate:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:GA:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:G:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:win_rate:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Rank:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Team:nk]'>
+            <groupfilter function='member' level='[none:Team:nk]' member='&quot;Borussia M.Gladbach&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Team:nk]</column>
+            <column>[federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names]' value='421' />
+            <format attr='height' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Years:ok]' value='38' />
+            <format attr='font-weight' data-class='total' value='bold' />
+            <format attr='cell-w' value='138' />
+            <format attr='cell-h' value='46' />
+            <format attr='cell' value='46' />
+            <format attr='cell-q' value='230' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+            <format attr='font-weight' data-class='subtotal' value='normal' />
+            <format attr='text-format' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Rank:qk]' value='N' />
+            <format attr='text-format' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:win_rate:qk]' value='p0.0%' />
+            <format attr='text-format' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:GA:qk]' value='N' />
+            <format attr='text-format' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:G:qk]' value='N' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-style' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Rank:qk]' value='italic' />
+            <format attr='text-decoration' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Rank:qk]' value='underline' />
+            <format attr='font-weight' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Rank:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[Multiple Values]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#0053a7</color>
+                <color>#1d65af</color>
+                <color>#3d7ab7</color>
+                <color>#608fc0</color>
+                <color>#85a6c8</color>
+                <color>#adbfd0</color>
+                <color>#d9d9d9</color>
+                <color>#dcc8b8</color>
+                <color>#e0b696</color>
+                <color>#e4a473</color>
+                <color>#e8914e</color>
+                <color>#ec7e29</color>
+                <color>#f06a02</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:GA:qk]' num-steps='5' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#000000</color>
+                <color>#242424</color>
+                <color>#484848</color>
+                <color>#6c6c6c</color>
+                <color>#909090</color>
+                <color>#b4b4b4</color>
+                <color>#d9d9d9</color>
+                <color>#c7d3b8</color>
+                <color>#b6ce98</color>
+                <color>#a6c97a</color>
+                <color>#97c35e</color>
+                <color>#88be42</color>
+                <color>#7ab929</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:G:qk]' num-steps='5' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#7ab929</color>
+                <color>#88be42</color>
+                <color>#97c35e</color>
+                <color>#a6c97a</color>
+                <color>#b6ce98</color>
+                <color>#c7d3b8</color>
+                <color>#d9d9d9</color>
+                <color>#b4b4b4</color>
+                <color>#909090</color>
+                <color>#6c6c6c</color>
+                <color>#484848</color>
+                <color>#242424</color>
+                <color>#000000</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Rank:qk]' num-steps='5' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#000000</color>
+                <color>#242424</color>
+                <color>#484848</color>
+                <color>#6c6c6c</color>
+                <color>#909090</color>
+                <color>#b4b4b4</color>
+                <color>#d9d9d9</color>
+                <color>#c7d3b8</color>
+                <color>#b6ce98</color>
+                <color>#a6c97a</color>
+                <color>#97c35e</color>
+                <color>#88be42</color>
+                <color>#7ab929</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:win_rate:qk]' num-steps='5' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#000000</color>
+                <color>#242424</color>
+                <color>#484848</color>
+                <color>#6c6c6c</color>
+                <color>#909090</color>
+                <color>#b4b4b4</color>
+                <color>#d9d9d9</color>
+                <color>#c7d3b8</color>
+                <color>#b6ce98</color>
+                <color>#a6c97a</color>
+                <color>#97c35e</color>
+                <color>#88be42</color>
+                <color>#7ab929</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-weight' field='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Rank:qk]' value='normal' />
+          </style-rule>
+          <style-rule element='parameter-ctrl'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='parameter-ctrl-title'>
+            <format attr='text-align' value='auto' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0re6jmx12fdddn1205wbq018m4ao].[Multiple Values]' separate-domains='true' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0re6jmx12fdddn1205wbq018m4ao].[none:Years:ok]</rows>
+        <cols>[federated.0re6jmx12fdddn1205wbq018m4ao].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{B3CCF68B-F6BD-43B5-B802-556E4763DE67}' />
+    </worksheet>
+    <worksheet name='model'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontsize='12'>Qualify probability for an european competition on 2020 depending on their effectifs values</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='model_result (model_result)' name='federated.08dx3b31dhcvpv19yi87c1arftkz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08dx3b31dhcvpv19yi87c1arftkz'>
+            <column caption='Team1' datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column caption='Value1' datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='None' name='[none:Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pourcentage]' derivation='None' name='[none:pourcentage:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[pourcentage]' derivation='None' name='[none:pourcentage:qk]' pivot='key' type='quantitative' />
+            <column caption='Pourcentage' datatype='real' name='[pourcentage]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Team:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;Bay. Leverkusen&quot;' function='range' level='[none:Team:nk]' to='&quot;FC Bayern&quot;' />
+              <groupfilter function='member' level='[none:Team:nk]' member='&quot;FSV Mainz 05&quot;' />
+              <groupfilter from='&quot;Hertha BSC&quot;' function='range' level='[none:Team:nk]' to='&quot;TSG Hoffenheim&quot;' />
+              <groupfilter function='member' level='[none:Team:nk]' member='&quot;VfB Stuttgart&quot;' />
+              <groupfilter function='member' level='[none:Team:nk]' member='&quot;VfL Wolfsburg&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Value:qk]' included-values='all' />
+          <natural-sort column='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:ok]' direction='DESC' />
+          <filter class='quantitative' column='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]' included-values='in-range'>
+            <min>0.02</min>
+            <max>0.999</max>
+          </filter>
+          <slices>
+            <column>[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Value:qk]</column>
+            <column>[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]</column>
+            <column>[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Team:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-color' value='#b4b4b4' />
+            <encoding attr='space' class='0' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]' field-type='quantitative' max='1.0' min='0.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]' scope='cols' value='Probability' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Value:qk]' value='' />
+            <format attr='text-format' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]' value='p0.0%' />
+            <format attr='border-width' scope='cols' value='0' />
+            <format attr='border-style' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:ok]' value='10' />
+            <format attr='background-color' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Value:qk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Value:qk]' num-steps='5' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#7ab929</color>
+                <color>#88be42</color>
+                <color>#97c35e</color>
+                <color>#a6c97a</color>
+                <color>#b6ce98</color>
+                <color>#c7d3b8</color>
+                <color>#d9d9d9</color>
+                <color>#b4b4b4</color>
+                <color>#909090</color>
+                <color>#6c6c6c</color>
+                <color>#484848</color>
+                <color>#242424</color>
+                <color>#000000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='omit-on-special' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:ok]' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-visibility' value='on' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-color' value='#b4b4b4' />
+          </style-rule>
+          <style-rule element='quick-filter-title'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Value:qk]' />
+              <text column='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Team:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontsize='8'>&lt;</run>
+                <run bold='true' fontalignment='1' fontsize='8'>[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Team:nk]</run>
+                <run bold='true' fontalignment='1' fontsize='8'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='text-orientation' value='0' />
+                <format attr='vertical-align' value='center' />
+                <format attr='wrap' value='auto' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:ok]</rows>
+        <cols>[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]</cols>
+        <table-calculations>
+          <partitionable-measures>
+            <column>[federated.08dx3b31dhcvpv19yi87c1arftkz].[attr:Team:nk]</column>
+          </partitionable-measures>
+        </table-calculations>
+      </table>
+      <simple-id uuid='{7FD5A023-0F49-41C7-8C1B-0FF832056F85}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Tableau de bord 1'>
+      <style>
+        <style-rule element='parameter-ctrl'>
+          <format attr='background-color' value='#00000000' />
+        </style-rule>
+      </style>
+      <size minheight='4478' minwidth='1500' sizing-mode='range' />
+      <datasources>
+        <datasource caption='model_result (model_result)' name='federated.08dx3b31dhcvpv19yi87c1arftkz' />
+      </datasources>
+      <datasource-dependencies datasource='federated.08dx3b31dhcvpv19yi87c1arftkz'>
+        <column caption='Team1' datatype='string' name='[Team]' role='dimension' type='nominal' />
+        <column caption='Value1' datatype='integer' name='[Value]' role='measure' type='quantitative' />
+        <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Value]' derivation='None' name='[none:Value:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='90665' id='21' type-v2='empty' w='100127' x='0' y='9379'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='5' />
+          </zone-style>
+        </zone>
+        <zone h='9379' id='82' type-v2='empty' w='100127' x='0' y='0'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#282828' />
+          </zone-style>
+        </zone>
+        <zone h='11009' id='54' name='Feuille 6 (2)' w='93224' x='3483' y='40576' />
+        <zone h='17046' id='8' name='Feuille 2' w='76314' x='4433' y='58179' />
+        <zone forceUpdate='true' h='3863' id='26' type-v2='text' w='74495' x='20612' y='2992'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='23'>Borussia Mönchengladbach</run>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='24'>, the return at the </run>
+            <run bold='true' fontalignment='1' fontcolor='#7ab929' fontsize='24'>highest european football competition </run>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='24'>?</run>
+          </formatted-text>
+        </zone>
+        <zone h='9156' id='27' is-centered='0' is-scaled='1' param='C:/Users/gormt/P08/bundes/langfr-800px-Borussia_Mönchengladbach_logo.svg.png' type-v2='bitmap' w='14067' x='4037' y='826' />
+        <zone h='1641' id='12' leg-item-layout='horz' name='Feuille 2' pane-specification-id='1' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]' type-v2='color' w='55668' x='4813' y='56194' />
+        <zone h='185' id='36' param='vert' type-v2='layout-flow' w='67321' x='15769' y='77792'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='5' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='3640' id='37' type-v2='text' w='25505' x='5199' y='12506'>
+          <formatted-text>
+            <run fontalignment='1' fontsize='14'>Bundesliga</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#7ab929' fontsize='24'>5</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone h='8709' id='38' param='horz' type-v2='layout-flow' w='183' x='33272' y='10049'>
+          <zone-style>
+            <format attr='border-color' value='#323232' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='5' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='3260' id='39' type-v2='text' w='14128' x='41713' y='12282'>
+          <formatted-text>
+            <run fontalignment='1' fontsize='14'>German cup</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#7ab929' fontsize='24'>3</run>
+          </formatted-text>
+        </zone>
+        <zone h='8709' id='40' param='horz' type-v2='layout-flow' w='183' x='63792' y='10049'>
+          <zone-style>
+            <format attr='border-color' value='#323232' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='5' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='3908' id='41' type-v2='text' w='26116' x='68624' y='12171'>
+          <formatted-text>
+            <run fontalignment='1' fontsize='16'>UEFA Cup</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run fontalignment='1' fontcolor='#7ab929' fontsize='24'>2</run>
+          </formatted-text>
+        </zone>
+        <zone h='17178' id='42' name='model' w='77137' x='7283' y='80492' />
+        <zone h='3017' id='45' name='model' param='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Value:qk]' type-v2='filter' values='database' w='10070' x='85054' y='82451' />
+        <zone h='10987' id='46' name='model' param='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Team:nk]' type-v2='filter' values='database' w='10260' x='84991' y='86021' />
+        <zone h='8397' id='55' name='Points Mhsc (2)' w='93477' x='3420' y='29879' />
+        <zone h='18736' id='57' name='Points Mhsc' w='15769' x='82204' y='55293' />
+        <zone h='112' id='58' param='horz' type-v2='layout-flow' w='63331' x='19759' y='53640'>
+          <zone-style>
+            <format attr='border-color' value='#282828' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='5' />
+          </zone-style>
+        </zone>
+        <zone h='159' id='61' param='horz' type-v2='layout-flow' w='59595' x='22229' y='27925'>
+          <zone-style>
+            <format attr='border-color' value='#282828' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='5' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='3886' id='62' type-v2='text' w='92717' x='4243' y='19808'>
+          <formatted-text>
+            <run fontname='Calibri' fontsize='14'>Borussia Mönchengladbach, club with some european epic moments like 70-80 decade, is solid outsider behind the 3 top team. But, last year, they miss qualifying places, and have succeed their first time in modern champions league.</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontname='Calibri' fontsize='17'>A return for 2022 ? </run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#282828' />
+            <format attr='border-style' value='dotted' />
+            <format attr='border-width' value='5' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2300' minheight='2300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='134' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99642' id='133' param='vert' type-v2='layout-flow' w='98986' x='507' y='179'>
+                <zone fixed-size='280' h='9156' id='27' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/gormt/P08/bundes/langfr-800px-Borussia_Mönchengladbach_logo.svg.png' type-v2='bitmap' w='14067' x='4037' y='826'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3863' id='26' type-v2='text' w='74495' x='20612' y='2992'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='23'>Borussia Mönchengladbach</run>
+                    <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='24'>, the return at the </run>
+                    <run bold='true' fontalignment='1' fontcolor='#7ab929' fontsize='24'>highest european football competition </run>
+                    <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='24'>?</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3908' id='41' type-v2='text' w='26116' x='68624' y='12171'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='16'>UEFA Cup</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#7ab929' fontsize='24'>2</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3260' id='39' type-v2='text' w='14128' x='41713' y='12282'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='14'>German cup</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#7ab929' fontsize='24'>3</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3640' id='37' type-v2='text' w='25505' x='5199' y='12506'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='14'>Bundesliga</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#7ab929' fontsize='24'>5</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3886' id='62' type-v2='text' w='92717' x='4243' y='19808'>
+                  <formatted-text>
+                    <run fontname='Calibri' fontsize='14'>Borussia Mönchengladbach, club with some european epic moments like 70-80 decade, is solid outsider behind the 3 top team. But, last year, they miss qualifying places, and have succeed their first time in modern champions league.</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontname='Calibri' fontsize='17'>A return for 2022 ? </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#282828' />
+                    <format attr='border-style' value='dotted' />
+                    <format attr='border-width' value='5' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='8397' id='55' is-fixed='true' name='Points Mhsc (2)' w='93477' x='3420' y='29879'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='11009' id='54' is-fixed='true' name='Feuille 6 (2)' w='93224' x='3483' y='40576'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='18736' id='57' is-fixed='true' name='Points Mhsc' w='15769' x='82204' y='55293'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='17046' id='8' is-fixed='true' name='Feuille 2' w='76314' x='4433' y='58179'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='1641' id='12' leg-item-layout='horz' name='Feuille 2' pane-specification-id='1' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]' type-v2='color' w='55668' x='4813' y='56194'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3017' id='45' name='model' param='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Value:qk]' type-v2='filter' values='database' w='10070' x='85054' y='82451'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10987' id='46' mode='checkdropdown' name='model' param='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Team:nk]' type-v2='filter' values='database' w='10260' x='84991' y='86021'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='17178' id='42' is-fixed='true' name='model' w='77137' x='7283' y='80492'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{52079137-6146-4B0B-9347-8CE0D2527281}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='75'>
+    <window class='worksheet' name='Points Mhsc'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:PTS:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{17D32050-82D3-447C-993B-CD713C7D111A}' />
+    </window>
+    <window class='worksheet' name='Points Mhsc (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:GA:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[sum:G:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Rank:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:win_rate:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4EDCF9BB-71B2-4AA7-9027-5D71C026BEA6}' />
+    </window>
+    <window class='worksheet' name='Feuille 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card param='[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]' type='filter' />
+            <card pane-specification-id='1' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[Rank (groupe)]' type='color' />
+            <card pane-specification-id='1' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:Value totale:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0B1292EA-099A-4972-AC2C-680CAEF08586}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Tableau de bord 1'>
+      <viewpoints>
+        <viewpoint name='Feuille 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Feuille 6 (2)'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Points Mhsc' />
+        <viewpoint name='Points Mhsc (2)'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='model'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='21' />
+      <device-preview selected='Desktop'>
+        <device name='Large Desktop Monitor' type='Desktop' />
+      </device-preview>
+      <simple-id uuid='{DE6AA67A-D27C-4E04-8F06-187E4F9E6808}' />
+    </window>
+    <window class='worksheet' name='model'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card param='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:pourcentage:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Value:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='2' param='[federated.08dx3b31dhcvpv19yi87c1arftkz].[none:Value:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{83D35761-BC3D-45AE-9ADE-2CDBE2DB0BD9}' />
+    </window>
+    <window class='worksheet' name='Feuille 6 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:GA:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:G:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0re6jmx12fdddn1205wbq018m4ao].[avg:win_rate:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1FC540B9-62DD-4067-ABD8-F449FD3E9679}' />
+    </window>
+  </windows>
+</workbook>

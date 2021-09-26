@@ -1,0 +1,21 @@
+Team;Value;trend;pourcentage;predict
+Real Madrid;783,500;4,794;0,996;True
+Atletico Madrid;755,200;4,533;0,994;True
+Barcelone;676,000;3,801;0,657;True
+FC Sevilla;430,900;1,539;0,413;False
+Real Sociedad;375,500;1,027;0,359;False
+Villarreal CF;298,900;0,320;0,261;False
+FC Valencia;251,900;-0,114;0,197;False
+Real Betis;223,400;-0,377;0,161;False
+Athletic;188,300;-0,701;0,122;False
+FC Getafe;159,450;-0,967;0,095;False
+Celta Vigo;143,800;-1,112;0,055;False
+UD Levante;111,800;-1,407;0,040;False
+Esp. Barcelona;100,300;-1,513;0,036;False
+CA Osasuna;93,500;-1,576;0,034;False
+FC Granada;87,950;-1,627;0,032;False
+RCD Mallorca;74,500;-1,752;0,028;False
+Alaves;66,100;-1,829;0,026;False
+Elche CF;52,100;-1,958;0,022;False
+Rayo Vallecano;52,100;-1,958;0,022;False
+Cadiz CF;47,580;-2,000;0,021;False
