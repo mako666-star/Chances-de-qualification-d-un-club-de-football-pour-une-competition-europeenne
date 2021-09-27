@@ -12,6 +12,6 @@ Voici un graphique conclutif présentant les résultats du modèle réalisé
 
 ---
 
-Here is a graphic present our results about the model realized
+Here is a graphic which present our results about the model realized
 
 ![Résultats du model / Model result](https://github.com/mako666-star/Chances-de-qualification-d-un-club-de-football-pour-une-competition-europeenne/blob/main/Ligue%201/Montpellier%20H%C3%A9rault%20Sport%20Club%20-%20Ligue%201.png)
