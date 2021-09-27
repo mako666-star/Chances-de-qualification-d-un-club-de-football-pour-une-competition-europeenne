@@ -1,22 +1,13 @@
-fichiers : 
-- notebooks :
-	- P08_code -> analyse et élaboration du dataset
-	- fichier_test -> test du modèle
+# Ligue 1 - Prédire les chances de qualification d'un club de football pour une compétition européenne
 
-- fichier pour les fonctions (function)
+Dashboard : https://public.tableau.com/app/profile/fauvel4243/viz/MontpellierHraultSportClub-Ligue1/Histoire1
+Notebook : https://github.com/mako666-star/Chances-de-qualification-d-un-club-de-football-pour-une-competition-europeenne/blob/main/Ligue%201/P08_code.ipynb
+Notebook test : https://github.com/mako666-star/Chances-de-qualification-d-un-club-de-football-pour-une-competition-europeenne/blob/main/Ligue%201/fichier_test.ipynb 
 
-- fichiers excel :
+Voici un graphique conclutif présentant les résultats du modèle réalisé 
 
-	- données importées (all_player,ligue,all_value_max, all_value_euro,fifa_glob)
+---
 
-	- sauvegardes
+Here is a graphic present our results about the model realized
 
-
-librairies :
-pandas, numpy, requests
-BeautifulSoup
-- P08_code 
-seaborn, matplotlib,asyncio, aiohttp, Understat
-
-- fichier_test 
-LogisticRegression, pickle
+![Résultats du model / Model result](https://github.com/mako666-star/Chances-de-qualification-d-un-club-de-football-pour-une-competition-europeenne/blob/main/Ligue%201/Montpellier%20H%C3%A9rault%20Sport%20Club%20-%20Ligue%201.png)
