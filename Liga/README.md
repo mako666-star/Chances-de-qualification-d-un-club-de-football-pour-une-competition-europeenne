@@ -1,6 +1,6 @@
 # Liga - Prédire les chances de qualification d'un club de football pour une compétition européenne
 
-Dashboard : https://public.tableau.com/app/profile/fauvel4243/viz/MontpellierHraultSportClub-Ligue1/Histoire1
+Dashboard : https://public.tableau.com/app/profile/fauvel4243/viz/Villareal-Liga/Histoire1
 
 
 Notebook : https://github.com/mako666-star/Chances-de-qualification-d-un-club-de-football-pour-une-competition-europeenne/blob/main/Liga/villareal_dataset.ipynb
